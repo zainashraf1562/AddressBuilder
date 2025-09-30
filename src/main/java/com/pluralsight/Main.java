@@ -11,7 +11,6 @@ public class Main {
         System.out.print("Full name: ");
         String fullName = input.nextLine();
 
-        // Get billing address information
         System.out.print("Billing Street: ");
         String billingStreet = input.nextLine();
 
@@ -24,7 +23,6 @@ public class Main {
         System.out.print("Billing Zip: ");
         String billingZip = input.nextLine();
 
-        // Get shipping address information
         System.out.print("Shipping Street: ");
         String shippingStreet = input.nextLine();
 
@@ -54,7 +52,7 @@ public class Main {
         addressBuilder.append(shippingZip).append("\n");
 
         String addressBuilderString = addressBuilder.toString();
-        System.out.println("\n--- Customer Information ---");
+        System.out.println("\n Customer Information");
         System.out.println(addressBuilderString);
 
         input.close();
